@@ -12,6 +12,7 @@ app.listen(port, (err) => {
     console.log(`Server is listening on ${port}`);
 });
 
+app.use("/api/v1/tasks",router)
 
 
 module.exports = app;
